@@ -1,5 +1,28 @@
-src/.ipynb_checkpoints/__init__-checkpoint.py
-src/.ipynb_checkpoints/data_loader-checkpoint.py
-src/.ipynb_checkpoints/gbm-checkpoint.py
-src/.ipynb_checkpoints/simulation-checkpoint.py
-notebooks/.ipynb_checkpoints/stock_monte_carlo_demo-checkpoint.ipynb
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Data files (optional)
+data/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
