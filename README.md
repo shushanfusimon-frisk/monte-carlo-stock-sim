@@ -5,7 +5,7 @@ This project implements a full Monte Carlo simulation of stock prices using the 
 ## Project Structure
 
 ```
-monte-carlo-stock-simulator/
+monte-carlo-stock-sim/
 ├── data/
 ├── src/
 │   ├── data_loader.py
