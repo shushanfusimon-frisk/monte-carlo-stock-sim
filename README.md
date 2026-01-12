@@ -30,19 +30,30 @@ monte-carlo-stock-sim/
 
 ## How to Run
 
-1. Install dependencies:
+1. Open terminal: (Windows cmd)
+   Open the project folder in File Explorer.
+   Click the folder path at the top (address bar), type cmd, and press Enter.
+   This opens a terminal window inside the project folder.
+
+2. Update pip to the newest version:
+
+   ```
+   python -m pip install --upgrade pip
+   ```
+
+3. Install dependencies:
 
    ```
    pip install -r requirements.txt
    ```
    
-2. Open the notebook:
+4. Open the notebook:
 
    ```
    jupyter notebook notebooks/stock_monte_carlo.ipynb
    ```
    
-3. Run all cells to reproduce the analysis.
+5. Run all cells to reproduce the analysis.
 
 ## Requirements
 
