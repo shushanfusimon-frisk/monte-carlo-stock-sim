@@ -8,7 +8,7 @@ def download_price_data(ticker: str, start: str, end: str) -> pd.DataFrame:
     Download daily adjusted close prices for a given ticker.
     """
     data = yf.download(ticker, start=start, end=end)
-    data = data[['Adj Close']].rename(columns={'Adj Close': 'price'})
+    data = data['Close']['AAPL'].rename('price').to_frame()
     data.dropna(inplace=True)
     return data
 
